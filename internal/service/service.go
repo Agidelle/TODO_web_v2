@@ -21,7 +21,7 @@ func NewService(repo domain.TaskRepository) *TaskService {
 }
 
 func (s *TaskService) CloseDB() {
-	s.repo.Close()
+	s.repo.CloseDB()
 }
 
 func (s *TaskService) FindAll(ctx context.Context, filter *domain.Filter) ([]*domain.Task, *domain.CustomError) {

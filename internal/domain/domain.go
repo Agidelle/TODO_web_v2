@@ -30,7 +30,7 @@ type TaskRepository interface {
 	CreateTask(ctx context.Context, task *Task) (int64, error)
 	UpdateTask(ctx context.Context, task *Task) error
 	DeleteTask(ctx context.Context, id *int) error
-	Close()
+	CloseDB()
 }
 
 type TaskOption func(*Task)

@@ -41,7 +41,7 @@ func NewPool(ctx context.Context, dsn string) *Storage {
 	return &Storage{pool: pool}
 }
 
-func (s *Storage) Close() {
+func (s *Storage) CloseDB() {
 	if s.pool != nil {
 		s.pool.Close()
 	}
