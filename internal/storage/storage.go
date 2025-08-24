@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/agidelle/merch-shop/internal/domain"
+	"github.com/agidelle/TODO_web_v2/internal/domain"
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 

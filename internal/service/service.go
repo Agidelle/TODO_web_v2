@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	"errors"
-	"github.com/agidelle/merch-shop/internal/domain"
+	"github.com/agidelle/TODO_web_v2/internal/domain"
 	"strconv"
 	"strings"
 	"time"

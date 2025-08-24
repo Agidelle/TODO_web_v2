@@ -1,6 +1,6 @@
 package app
 
-import "github.com/agidelle/merch-shop/internal/api"
+import "github.com/agidelle/TODO_web_v2/internal/api"
 
 type App struct {
 	cfg      *Config
